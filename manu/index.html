@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Westling</title>
+    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- <header>-->
+    <header id="blur">
+        <div class="top-bar ">
+            <!-- inline styling to  disfunction specificity -->
+            <button class="infos" style="margin-top: -7px;" onclick="toggle()">Get more Information</button>
+        </div>
+
+        
+    <!-- navbar goes here -->
+     <div class="navbar">
+        <div class="container-navbar">
+            <div class="icons"> 
+                
+            <!-- hamburger -->
+             <div class="mobile-cta" id="mobile-ctas">
+                 <i class="fa-solid fa-burger"></i>
+            </div>
+            
+
+                <!-- code wrestling -->
+        <div class="logo">
+            <a href="index.html"><h6>Code<span>Westling</span></h6></a>
+        </div> 
+
+        <!-- user icon -->
+         <div class="user">
+            <i id="user-id" onclick="toggle()" class="fa-solid fa-user"></i>
+            <h6 id="user-id" onclick="toggle()" class="hide">Login</h6>
+        </div>
+            </div>
+            </div>
+        </div>
+        <!--  nav lists -->
+          <nav>
+            <div class="nav-icon">
+                  <!-- code wrestling -->
+                  <div class="logo">
+                    <a href="index.html"><h6>Code<span>Westling</span></h6></a>
+                    <div class="mobile-exit" id="mobile-exits"><i class="fa-solid fa-x"></i></div>
+                  </div> 
+                <ul>
+                    <div class="users">
+                           <!-- home icon -->
+                        <li><a href="index.html"><i class="fa-solid fa-house fa-fade"></i></a></li>
+                        <h6 class="hides">Home</h6>
+                    <!-- service icon bell -->
+                        <li><a href="#"><i class="fa-solid fa-bell-concierge fa-fade"></i></a></li>
+                        <h6 class="hides">Services</h6>
+                   <!-- dashboard icon  -->
+                        <li><a href="dashbpoard.html"><i class="fa-solid fa-arrow-right-from-bracket fa-fade"></i></i></a></li>
+                        <h6 class="hides">Dashboard</h6> 
+                 </div>
+         </ul>
+     </div>
+</nav>  
+</header>
+
+<!-- user details -->
+<div class="user-input" id="inputs">
+    <div class="container-input">
+        <div class="input" id="popup">
+            <div class="logo">
+                <i class="fa-solid fa-x" style="cursor: pointer;" onclick="toggle()"></i>
+                <a href="#"><h6>Code<span>Westling</span></h6></a>
+            </div>
+
+            <h3>Register</h3>
+            <form action="" id="my-form">
+                <h4>Name :</h4>
+                
+                <input type="text" id="name" class="msg">
+    
+                <h4>Phone Number :</h4>
+                <input type="text" id="phone" class="mssg">
+
+                <div class="submit">
+                    <button class="btn">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div> 
+
+<!-- section info -->
+   <section class="organization-section">
+    <div class="organization-details">
+        <div class="info">
+            <h2>About Our<span> Organization</span></h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
+            Nulla vel libero nec nisl cursus bibendum. Vestibulum dignissim felis
+            <br> a libero dictum, nec tincidunt nunc interdum. Integer id orci id metus euismod ultrices.</p>
+        </div>
+        <div class="section-img">
+            <img src="imgs/lady2.jpg" alt="">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, aut!</p>
+        </div>
+        <div class="section-img">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, aut!</p> 
+            <img src="imgs/guy1.jpg" alt="">
+        </div>
+    </div>
+</section>
+<section class="trigger-section"></section>
+
+<!-- footer -->
+<footer>
+    <div class="footer-container">
+        <div class="logo"><a href="#"><h6>Code<span>Westling</span></h6></a></div>
+
+        <div class="content">
+            <div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipi
+                sicing elit. Ex aspernatur exercitationem veniam.</p>
+            </div>
+        </div>
+
+        <ul>
+            <div class="socials">
+             <a href="#"><li><i class="fa-brands fa-x-twitter"></i><h6 class="hides">X-Twitter</h6></li></a>
+        
+             <a href="#"><li><i class="fa-brands fa-linkedin"></i><h6 class="hides">Linkedin</h6></li></a>
+                
+             <a href="#"><li><i class="fa-brands fa-medium"></i><h6 class="hides">Medium</h6></li></a>
+                
+             <a href="#"><li><i class="fa-brands fa-instagram"></i><h6 class="hides">Instagram</h6></li></a>
+                
+        </ul>
+    </div>
+</footer>   
+
+    <script src="./index.js"></script>
+    <script src="https://kit.fontawesome.com/28c438f306.js" crossorigin="anonymous"></script>
+</body>
+</html>
